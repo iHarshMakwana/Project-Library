@@ -11,12 +11,46 @@
     <div class="main">
         <div class="header">
             <h1 class="title">My Library</h1>
-            <button class="btn-add" role="button">Add Book</button>
+            <button class="btn-add" role="button" onclick="clicks()">Add Book</button>
         </div>
-        <div class="content">
-
+        <div class="popup">
+            <div class="container">
+                <div class="form_area">
+                    <p class="form-title">Add Book Details</p>
+                    <form action="">
+                        <div class="form_group">
+                            <label class="sub_title" for="book-name">Book Name</label>
+                            <input class="form_style" id="book-name" type="text">
+                        </div>
+                        <div class="form_group">
+                            <label class="sub_title" for="author">Author Name</label>
+                            <input id="author" class="form_style" type="text">
+                        </div>
+                        <div class="form_group">
+                            <label class="sub_title" for="pages">Pages</label>
+                            <input  id="Pages" class="form_style" type="number">
+                        </div>
+                        <div class="form_group">
+                            <div class="radio-input">
+                                <label>
+                                  <input value="value-1" name="value-radio" id="value-1" type="radio" />
+                                  <span>Read</span>
+                                </label>
+                                <label>
+                                  <input value="value-2" name="value-radio" id="value-2" type="radio" />
+                                  <span>Not Read</span>
+                                </label>
+                                <span class="selection"></span>
+                            </div>
+                              
+                        </div>   
+                    </form>
+                </div>
+            </div>
         </div>
-
+        
+        </div>
+        
     </div> 
 </body>
 </html>
