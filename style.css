@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@17&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: #ffff86;
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.title{
+    font-family: "Honk", system-ui;
+    font-size: 80px;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 17,
+      "SHLN" 50;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-add {
+    --color: #ff4e96;
+    font-family: inherit;
+    display: inline-block;
+    width: 7em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid black;
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+  }
+  
+  .btn-add:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .btn-add:hover {
+    color: #ffff86;
+  }
+  
+  .btn-add:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .btn-add:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .btn-add:active:before {
+    background: #ff617b;
+    transition: background 0s;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
