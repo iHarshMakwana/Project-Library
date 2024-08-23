@@ -196,6 +196,21 @@
   /* pop up UI END */
 
 
+  .btn-cancel {
+    padding: 15px;
+    margin: 25px 10px;
+    width: 130px;
+    font-size: 15px;
+    background: #e74c3c; /* Red background for cancel button */
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 3px 3px 0px 0px #E99F4C;
+    color: #fff; /* White text color */
+}
+
+.btn-cancel:hover {
+    opacity: .9;
+}
 
 
 
@@ -283,23 +298,55 @@
 
 
 
+  .library-container {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.book-entry {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.book-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
 
+.book-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
 
+.book-actions {
+    display: flex;
+    justify-content: space-between;
+}
 
+.book-entry button {
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.btn-update {
+    background-color: #3498db;
+    color: #fff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn-remove {
+    background-color: #e74c3c;
+    color: #fff;
+}

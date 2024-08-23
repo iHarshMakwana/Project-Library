@@ -11,9 +11,9 @@
     <div class="main">
         <div class="header">
             <h1 class="title">My Library</h1>
-            <button class="btn-add" role="button" onclick="clicks()">Add Book</button>
+            <button class="btn-add" role="button">Add Book</button>
         </div>
-        <div class="popup">
+        <div id="popup" style="display:none;">
             <div class="container">
                 <div class="form_area">
                     <p class="form-title">Add Book Details</p>
@@ -41,9 +41,12 @@
                                   <span>Not Read</span>
                                 </label>
                                 <span class="selection"></span>
-                            </div>
-                              
+                            </div>    
                         </div>   
+                        <div class="form_group">
+                            <button type="submit" class="btn">Submit</button>
+                            <button type="button" class="btn-cancel">Cancel</button>
+                        </div>
                     </form>
                 </div>
             </div>
